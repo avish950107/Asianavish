@@ -1,3 +1,4 @@
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -19,6 +20,12 @@ public class Hee {
 	{
 		System.out.println("credentials are--");
 		System.out.println("username are--");
+	}
+	
+	@AfterTest
+	public void American()
+	{
+		System.out.println("american guy added some code");
 	}
 }
 
